@@ -1,0 +1,50 @@
+# Eli C python 8/26/26
+
+from turtle import * # using a library 
+
+canvas=Screen() # setting variable 
+canvas.setup(600,400)
+
+eli=Turtle() # insertion point
+eli.color("purple") # setting insertion point color
+eli.shape("turtle") 
+
+eli.pensize(10)
+eli.penup()
+eli.right(180)
+eli.forward(200)
+eli.right(90)
+eli.pendown()
+eli.forward(50)
+eli.left(90)
+eli.left(90)
+eli.forward(200)
+eli.left(90)
+eli.forward(50)
+eli.left(180)
+eli.forward(50)
+eli.right(90)
+eli.forward(100)
+eli.right(90)
+eli.forward(50)
+eli.right(180)
+eli.forward(50)
+eli.right(90)
+eli.forward(100)
+eli.right(90)
+eli.forward(50)
+eli.penup()
+eli.forward(50)
+eli.pendown()
+eli.right(90)
+eli.forward(200)
+eli.left(90)
+eli.penup()
+eli.forward(50)
+eli.left(90)
+eli.pendown()
+eli.forward(175)
+eli.penup()
+eli.forward(15)
+eli.pendown()
+eli.forward(20)
